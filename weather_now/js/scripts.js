@@ -12,6 +12,6 @@ weatherObject.onload = function() {
     document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
 
     const iconcode =weatherInfo.weather[0].icon;
-    const icon_path = "//openweathermap.org/img/w/" + icondcode + ".png";
+    const icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
     console.log(icon_path);
 }//end of onload
